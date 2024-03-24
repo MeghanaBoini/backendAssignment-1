@@ -1,0 +1,19 @@
+
+GET http://localhost:4000/Products
+
+###
+GET http://localhost:4000/Products/2
+
+### 
+PUT http://localhost:4000/product
+Content-Type: application/json
+
+    {
+        "productId":3,
+        "productName":"Smart washer",
+        "price":3000,
+        "brand":"Samsung"
+    }
+
+###
+DELETE http://localhost:4000/product/4
